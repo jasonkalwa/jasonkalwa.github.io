@@ -1,0 +1,77 @@
+/*!
+
+In fact it's the greatest day of my life (so far)
+
+Copyright (c) 2014, Andy Bateman. All rights reserved.
+http://www.andybateman.com
+
+*/
+
+$background-color: #3f3f3f;
+$columns: 3; $rows: 3;
+
+@import 'reset';
+
+/* And here goes the rest of it! */
+
+
+body {
+	background-color: $background-color;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+	text-indent: -10000px;
+	font-size:1px;
+}
+
+#beginning {
+	display:block;
+	width:(150px)*$columns;height:(150px)*$rows;
+	margin:70px auto;
+			
+	li {
+		float:left;
+		width: 150px;
+		height: 150px;
+		display:block;
+		overflow: hidden;
+		background-image:url('jk_windows_v20141120.png');
+
+		a {
+			width:250px;
+			height:250px;
+			display:block;
+			text-indent:-10000px;
+			background-image:url('frame-shadow.png');
+			background-position: -10px -10px;
+			background-repeat:no-repeat;
+			position: relative;
+			top: -50px;
+			left: -50px;
+			
+			span {
+				display: block;
+				width: 250px;
+				height: 250px;
+				background-image:url('frame.png');
+				background-position: -10px -10px;
+				background-repeat:no-repeat;
+			}
+		}
+	}
+	
+	@for $i from 1 through $columns*$rows {
+		li:nth-child(#{$i}) {
+			background-position: -#{$i*150}px 0px;
+			
+			a {
+				-webkit-transform: rotate(random(360) + deg);
+				-moz-transform: rotate(random(360) + deg);
+				-ms-transform: rotate(random(360) + deg);
+				-o-transform: rotate(random(360) + deg);
+				transform: rotate(random(360) + deg);
+			}
+		}
+	}
+}

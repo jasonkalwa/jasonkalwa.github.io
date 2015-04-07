@@ -2,22 +2,16 @@
 layout: default
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
+<div id="beginning">
+  <ul>
+    <li><a href="http://www.facebook.com/jason.kalwa"><span>Find me on Facebook</span></a></li>
+    <li><a href="http://twitter.com/jasonkalwa"><span>Find me on Twitter</span></a></li>
+    <li><a href="http://www.flickr.com/photos/58858209@N07/"><span>Find me on Flickr</span></a></li>
+    <li><a href="mailto:jason@jasonkalwa.com"><span>Send me an Email</span></a></li>
+    <li><a href="http://www.facebook.com/jason.kalwa"><span>Find me on Facebook</span></a></li>
+    <li><a href="http://twitter.com/jasonkalwa"><span>Find me on Twitter</span></a></li>
+    <li><a href="http://www.flickr.com/photos/58858209@N07/"><span>Find me on Flickr</span></a></li>
+    <li><a href="mailto:jason@jasonkalwa.com"><span>Send me an Email</span></a></li>
+    <li><a href="http://www.facebook.com/jason.kalwa"><span>Find me on Facebook</span></a></li>
   </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
 </div>

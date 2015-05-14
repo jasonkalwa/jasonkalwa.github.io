@@ -3,10 +3,9 @@ $(window).load(function(){
 
   $(document).mousemove(function(e){
   	x = Math.round((e.pageX-$(window).width()/2)/$(window).width()*200);
-  	y = Math.round(($(window).height()/2-e.pageY)/$(window).height()*200);
+  	y = Math.round((e.pageY-$(window).height()/2)/$(window).height()*200);
 
-    console.log( x + ", " + y );
-
-    $("#beginning ul li a span").css('background-position',x/10 + "px " + y/10 + "px");
+    $("#beginning ul li a").css('left',(-50+x/10) + "px");
+    $("#beginning ul li a").css('top',(-50+y/10) + "px");
   });
 });

@@ -65,7 +65,7 @@ h1 {
 		li:nth-child(#{$i}) {
 			background-position: -#{$i*150}px 0px;
 			
-			a {
+			a span {
 				-webkit-transform: rotate(random(360) + deg);
 				-moz-transform: rotate(random(360) + deg);
 				-ms-transform: rotate(random(360) + deg);

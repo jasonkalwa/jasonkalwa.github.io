@@ -1,9 +1,9 @@
 
-Visit at http://www.jason-kalwa.co.uk
+# Visit at http://www.jason-kalwa.co.uk
 
 
 
-# Lovingly produced site for Jason Kalwa
+Lovingly produced site for Jason Kalwa
          _________   _  _______
         /   ___   \ | |/ ___   \
        |   /   \   ||   /   \   |

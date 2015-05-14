@@ -4,10 +4,4 @@
 
 
 Lovingly produced site for Jason Kalwa  
-         _________   _  _______  
-        /   ___   \ | |/ ___   \  
-       |   /   \   ||   /   \   |  
-       |  |     |  ||  |     |  |  
-       |   \___/   ||   \___/   |  
-        \_______/|_| \_________/  
                 By Andy Bateman

@@ -1,7 +1,5 @@
 
 # Visit at http://www.jason-kalwa.co.uk
 
-
-
-Lovingly produced site for Jason Kalwa  
-                By Andy Bateman
+Lovingly (ish) produced site for Jason Kalwa  
+                By Andy Bateman (www.andybateman.com)
